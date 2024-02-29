@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.title-container {
+    position: relative;
+}
+
+.title {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.title-decor {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.song {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cover-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cover {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.audio-container {
+    margin-bottom: 20px;
+}
+
+.lyrics {
+    text-align: center;
+}
+
+.verse, .chorus {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.chorus {
+    font-weight: bold;
+    color: #007bff;
+    font-family: 'Playfair Display', serif;
+}
+.verse {
+    font-style: italic;
+    color: #ff9900;
+}
+    
+.special-chorus {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff00ff;
+}
